@@ -1,0 +1,22 @@
+# ===== 隐私保护：真实用户数据永不提交 =====
+# data/ 目录存放用户的真实思维轨迹、偏好画像、视角银行——属于个人隐私。
+# 仓库中仅保留 data/_templates/ 下的空模板。
+data/traces/
+data/profiles/
+data/perspectives/
+!data/_templates/
+!data/README.md
+
+# ===== 平台/环境特定 =====
+.DS_Store
+Thumbs.db
+*.local
+.env
+.env.*
+!.env.example
+
+# ===== 编辑器 =====
+.vscode/
+.idea/
+*.swp
+*.swo
